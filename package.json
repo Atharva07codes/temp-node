@@ -4,11 +4,10 @@
   "description": "",
   "main": "alternative_exports.js",
   "dependencies": {
-    "bootstrap": "^5.3.8",
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
