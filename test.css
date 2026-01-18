@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+ position: 
+}
+.first{
+    text-align: end;
+    border: 1px solid red;
+    height: 200px;
+    width: 400px;
+    row-gap: 200px;
+    position: relative;
+    left: 100px;
+}
+.second{
+    text-align: start;
+    border: 1px solid red;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 800px;
+    margin-right: -100px;
+
+}
+.third{
+    text-align: end;
+    border: 1px solid red;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+}
+.fourth{
+    text-align: start;
+    border: 1px solid red;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 800px;
+}
+.first::first-line{
+    color: red;
+}
+.second::first-line{
+    color: red;
+}
+.third::first-line{
+    color: red;
+}
+.fourth::first-line{
+    color: red;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
